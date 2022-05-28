@@ -1,0 +1,32 @@
+body {
+  color: white;
+  font-family: 'Koulen', cursive;
+background-image: linear-gradient(to right, #051937, #2a3656, #4d5577, #71779a, #979bbe);
+}
+.content{
+  background-color:#2a3656;
+ padding: 50px;
+ box-shadow: 2px 1px 5px gray;
+  
+}
+button:hover{
+  background-color: #051937;
+  color: white;
+}
+.loginLink,.signUpLink{
+  font-weight: 900;
+  text-decoration: underline ;
+  cursor: pointer;
+}
+.signUp{
+  display: none;
+}
+.home{
+  display: none;
+}
+#logOut{
+  color: white;
+  background-color: #051937;
+  padding: 10px 20px ;
+  border: none; 
+}
